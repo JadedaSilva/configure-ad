@@ -25,13 +25,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/ubZebIP.png" height="80%" width="80%"/>
-</p>
 <p>
 Setup a Domain Controller(windiws server) and Test machine(windows 10)
 </p>
+<p>
+<img src="https://i.imgur.com/ubZebIP.png" height="80%" width="80%"/>
+</p>
+
 <br />
 
 <p>
