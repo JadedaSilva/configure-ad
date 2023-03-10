@@ -39,9 +39,9 @@ Go to the DC you created and click on Networking and then click on the NIC. Then
 </p>
 <p>
 <img src="https://i.imgur.com/qHVuVG0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<br><br/>
 <img src="https://i.imgur.com/Wz0pDkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<br><br/>
 <img src="https://i.imgur.com/IZXocPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 
