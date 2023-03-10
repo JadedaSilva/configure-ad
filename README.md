@@ -33,9 +33,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 
 <br />
-
-<p>
 <h3>Setting the DC Ip to Static Ip.<h3/> 
+<p>
+
 Go to the DC you created and click on Networking and then click on the NIC. Then got to Ip configurations then click on the ipconfig. Select static and save.
 </p>
 <p>
