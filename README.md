@@ -26,7 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 <p>
-<h3>Setup a Domain Controller(windows server) and Test machine(windows 10)</h3>
+<h3>Setup a Domain Controller(Windows server) and Test machine(Windows 10)</h3>
 </p>
 <p>
 <img src="https://i.imgur.com/ubZebIP.png" height="80%" width="80%"/>
@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-Setting the DC Ip to Static Ip. 
+<h3>Setting the DC Ip to Static Ip.<h3/> 
 Go to the DC you created and click on Networking and then click on the NIC. Then got to Ip configurations then click on the ipconfig. Select static and save.
 </p>
 <p>
