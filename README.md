@@ -30,15 +30,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/ubZebIP.png" height="80%" width="80%"/>
 </p>
 <p>
-
+Setup a Domain Controller(windiws server) and Test machine(windows 10)
 </p>
 <br />
 
 <p>
-<img src="https://imgur.com/a/0V2mj3h" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qHVuVG0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Wz0pDkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IZXocPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Setting the DC Ip to Static Ip. 
+Go to the DC you created and click on Networking and then click on the NIC. Then got to Ip configurations then click on the ipconfig. Select static and save.
 </p>
 <br />
 
