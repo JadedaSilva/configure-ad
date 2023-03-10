@@ -35,14 +35,15 @@ Setup a Domain Controller(windiws server) and Test machine(windows 10)
 <br />
 
 <p>
+Setting the DC Ip to Static Ip. 
+Go to the DC you created and click on Networking and then click on the NIC. Then got to Ip configurations then click on the ipconfig. Select static and save.
+</p>
+<p>
 <img src="https://i.imgur.com/qHVuVG0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Wz0pDkJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/IZXocPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
-<p>
-Setting the DC Ip to Static Ip. 
-Go to the DC you created and click on Networking and then click on the NIC. Then got to Ip configurations then click on the ipconfig. Select static and save.
-</p>
+
 <br />
 
 <p>
