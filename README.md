@@ -65,22 +65,32 @@ In the seearch bar type wf.msc, hit enter. Then go to core networking diagnostic
 <img src="https://i.imgur.com/lqrKZDl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h3>Ping the DC from the Windows 10 Client</h3> 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to CMD and ping the DC from the Windows 10 client in this case "ping 10.0.0.4". you receive a reply from the DC. 
 </p>
 <br />
 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RrrxYAM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h3>Active Directory Install</h3> 
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to server manager (ServerManager.msc) click on "Manage" then go to "Add Roles and Features" keep clicking next and install  "Active Directory Domain Services". It should restart after the install
 </p>
 <br />
 
 <br />
+
+<p>
+<img src="https://i.imgur.com/YB0uwlQ.png" height="80%" width="80%" alt="AD Setup"/>
+</p>
+
+<h3>Promote Server to Domain Controller</h3> 
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
