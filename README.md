@@ -91,30 +91,43 @@ Go to server manager (ServerManager.msc) click on "Manage" then go to "Add Roles
 </p>
 
 <h3>Promote Server to Domain Controller</h3> 
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click on the Flag at the top right hand corner then click on "Promote this server to a DC". Click "Add a new Forest" then create a domain name. 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/pM7pb0U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b/>
+<img src="https://i.imgur.com/uHOrNzf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
 
-<br />
 
+<h3>Login with domain name</h3> 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that the domain has been created the can login with "thisdomain\rootuser" in this case.
 </p>
 <br />
 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mZ9pGQk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h3>Create OUs</h3> 
+<p>
+Got to Active Directory(dsa.msc), create admin and employee. I had used _ADMIN as it would filter to the top and makes things easier to work with. If not created create a Active account in the admin folder and go to properties and add the user in this domain to "Domain Admins". 
+</p>
+<br />
+
+<br />
+
+<p>
+<img src="https://i.imgur.com/wPbWcgG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/m9rJjDt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
