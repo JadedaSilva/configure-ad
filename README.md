@@ -175,3 +175,8 @@ Select Start  > Settings  > System > Remote Desktop, and turn on Enable Remote D
 <p>
 <img src="https://i.imgur.com/vspKXvp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<br /> 
+
+
+🎉Congratulations! You have sucessfully installed osTicket adn all of its pre-requisite files!🎉
