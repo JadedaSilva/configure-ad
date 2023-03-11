@@ -179,4 +179,4 @@ Select Start  > Settings  > System > Remote Desktop, and turn on Enable Remote D
 <br /> 
 
 
-🎉Congratulations! You have sucessfully installed osTicket adn all of its pre-requisite files!🎉
+🎉Congratulations! You have sucessfully Setup AD and adding a device to a domain!🎉
