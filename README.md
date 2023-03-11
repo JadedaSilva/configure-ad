@@ -178,5 +178,8 @@ Select Start  > Settings  > System > Remote Desktop, and turn on Enable Remote D
 
 <br /> 
 
+<p>
+In conclusion, this tutorial provides a comprehensive guide for the implementation of on-premises Active Directory within Azure Virtual Machines. The tutorial includes a step-by-step process of setting up a domain controller, testing machine, setting the IP address to a static IP, configuring inbound rules for ICMP traffic, installing Active Directory Domain Services, promoting the server to domain controller, creating organizational units, and assigning DNS. This tutorial uses Microsoft Azure Virtual Machines, Remote Desktop, Active Directory Domain Services, and PowerShell, as well as Windows Server 2022 and Windows 10 (21H2) operating systems. The tutorial is well-organized and easy to follow, making it a useful resource for individuals or organizations looking to implement an on-premises Active Directory deployment within Azure Virtual Machines.
+</p>
 
 🎉Congratulations! You have sucessfully Setup AD and adding a device to a domain!🎉
