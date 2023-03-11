@@ -100,11 +100,14 @@ Click on the Flag at the top right hand corner then click on "Promote this serve
 <img src="https://i.imgur.com/uHOrNzf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<br />
 
 <h3>Login with domain name</h3> 
+
 <p>
 Now that the domain has been created the can login with "thisdomain\rootuser" in this case.
 </p>
+
 <br />
 
 <br />
@@ -113,10 +116,14 @@ Now that the domain has been created the can login with "thisdomain\rootuser" in
 <img src="https://i.imgur.com/mZ9pGQk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<br />
+
 <h3>Create OUs</h3> 
+
 <p>
 Got to Active Directory(dsa.msc), create admin and employee. I had used _ADMIN as it would filter to the top and makes things easier to work with. If not created create a Active account in the admin folder and go to properties and add the user in this domain to "Domain Admins". 
 </p>
+
 <br />
 
 <br />
@@ -128,7 +135,43 @@ Got to Active Directory(dsa.msc), create admin and employee. I had used _ADMIN a
 
 <br />
 
+<h3>Assigning DNS</h3> 
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go back to Azure Virtual Machine Device-1(Windows Client) > Networking > NIC(Device-1597) > DNS Servers. Enter you Domain Controllers IP here.
 </p>
+
 <br />
+
+<p>
+<img src="https://i.imgur.com/lbgTFnM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h3>Adding Device-1(Window 10 Client) to the domain</h3> 
+
+<p>
+Login back to the Windows Device-1 right on start go to System > Rename this PC > Change > Domain . Enter the domain name(Thisdomain.com) there.
+</p>
+
+<br />
+
+<p>
+<img src="https://i.imgur.com/6PcF09O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yvvBsFP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h3>Allow Remote Access</h3> 
+
+<p>
+Select Start  > Settings  > System > Remote Desktop, and turn on Enable Remote Desktop. Select users that can remotely access this PC.
+</p>
+
+<br />
+
+<p>
+<img src="https://i.imgur.com/vspKXvp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
